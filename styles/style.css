@@ -44,10 +44,15 @@
     color: #1f2937;
 }
 .cards-text{
+    margin-top: 15px;
     display: flex;
     justify-content: center;
-    background-color: lightgray;
     font-size: 45px;
+}
+#cards-header{
+    background: #1f2937;
+    border-radius: 5px;
+    color: aliceblue;
 }
 .cards-content{
     display: flex;
