@@ -57,7 +57,9 @@
 }
 .cards-content{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
+    gap: 150px;
+    flex-wrap: wrap;
 
 }
 .asus,.gigabyte
@@ -69,6 +71,9 @@
     text-align: center;
     padding: 5px;
     margin: 10px;
+}
+.text{
+    padding-top: 8px;
 }
 .card-pics{
     height: 200px;
